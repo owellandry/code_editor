@@ -1,0 +1,65 @@
+.terminal {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+  }
+  
+  .terminal.hidden {
+    display: none;
+  }
+  
+  .terminal.maximized {
+    height: calc(100% - 30px); /* Ajusta la altura según tus necesidades */
+    overflow: auto;
+  }
+  
+  .terminal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .terminal-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .terminal-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .terminal-action {
+    background-color: #e8e8e8;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  pre {
+    background-color: #ffffff;
+    padding: 12px;
+    overflow: auto;
+    max-height: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), -2px -2px 4px rgba(255, 255, 255, 0.5);
+  }
+  
+  input[type='text'] {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    width: 98%;
+    margin-top: 8px;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1), inset -2px -2px 4px rgba(255, 255, 255, 0.5);
+  }
+  
