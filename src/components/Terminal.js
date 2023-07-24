@@ -26,11 +26,11 @@ function Terminal() {
   };
 
   const handleDeleteTerminal = () => {
-    // Implementa aquí la lógica para eliminar la terminal
+    setIsHidden(true);
   };
 
   const handleCreateNewTerminal = () => {
-    // Implementa aquí la lógica para crear una nueva terminal
+    setIsHidden(false);
   };
 
   const handleToggleMaximize = () => {
