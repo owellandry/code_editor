@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # EDITOR DE CODIGO
 
 POR FAVOR SELECCIONA TU IDIOMA
@@ -8,34 +7,53 @@ POR FAVOR SELECCIONA TU IDIOMA
     <tr>
       <th>IDIOMA</th>
       <th>BANDERA</th>
+      <th>HORA DE ACTUALIZACIÓN</th>
+      <th>AÑO</th>
+      <th>VER</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>ESPAÑOL</td>
       <td><img src="./dist/img/federation-96.png" alt="Federación"></td>
+      <td>05:15 PM</td>
+      <td>2023</td>
+      <td><a href="enlace-documentacion-espanol">VER</a></td>
     </tr>
     <tr>
       <td>ESPAÑOL</td>
       <td><img src="./dist/img/france-96.png" alt="Francia"></td>
+      <td>05:15 PM</td>
+      <td>2023</td>
+      <td><a href="enlace-documentacion-frances">VER</a></td>
     </tr>
     <tr>
       <td>ESPAÑOL</td>
       <td><img src="./dist/img/germany-96.png" alt="Alemania"></td>
+      <td>05:15 PM</td>
+      <td>2023</td>
+      <td><a href="enlace-documentacion-aleman">VER</a></td>
     </tr>
     <tr>
       <td>ESPAÑOL</td>
       <td><img src="./dist/img/italy-96.png" alt="Italia"></td>
+      <td>05:15 PM</td>
+      <td>2023</td>
+      <td><a href="enlace-documentacion-italiano">VER</a></td>
     </tr>
     <tr>
       <td>ESPAÑOL</td>
       <td><img src="./dist/img/japan-96.png" alt="Japón"></td>
+      <td>05:15 PM</td>
+      <td>2023</td>
+      <td><a href="enlace-documentacion-japones">VER</a></td>
     </tr>
     <tr>
       <td>ESPAÑOL</td>
       <td><img src="./dist/img/spain-96.png" alt="España"></td>
+      <td>05:15 PM</td>
+      <td>2023</td>
+      <td><a href="enlace-documentacion-espanol">VER</a></td>
     </tr>
   </tbody>
 </table>
-
----
