@@ -14,23 +14,23 @@
 
 ubuntuのコマンドは次のとおりです
 
-「」バッシュ
-Ctrl+Shift+T
-「」
+```bash
+Ctrl + Shift + T
+```
 
 ![img](https://media.discordapp.net/attachments/1133765208322617435/1133766050790527026/image.png)
 
 Windowsの場合、コマンドは次のとおりです
 
-「」バッシュ
-勝利+R
-「」
+```bash
+Win + R 
+```
 
 タスクバーが表示されますので、そこに配置します
 
-「」バッシュ
+```bash
 cmd
-「」
+```
 
 そして私たちはあなたに入場を与えます
 
@@ -47,9 +47,9 @@ cmd
 
 2. 次のコマンドを入力して Enter キーを押します。
 
-「」バッシュ
+```bash
 git --version
-「」
+```
 
 3. Git がインストールされている場合は、システム上にある Git のバージョンが表示されます。 そうしないと、コマンドが認識されないか、インストールされないことを示すエラー メッセージが表示されます。
 
@@ -71,9 +71,9 @@ git --version
 
 1. 通常、macOS にはすでにインストールされている Xcode コマンド ライン ツールを介して Git をインストールできます。 ターミナルを開いて次のように入力します。
 
-「」バッシュ
+```bash
 git --version
-「」
+```
 
 2. Git がインストールされていない場合、macOS は自動的にインストールするように求めるメッセージを表示します。
 
@@ -81,22 +81,22 @@ git --version
 
 Debian ベースのディストリビューション (Ubuntu など) の場合:
 
-「」バッシュ
-sudo aptアップデート
+```bash
+sudo apt update
 sudo apt install git
-「」
+```
 
 Red Hat ベースのディストリビューション (CentOS や Fedora など) の場合:
 
-「」バッシュ
-sudo yum で git をインストール
-「」
+```bash
+sudo yum install git
+```
 
 Arch Linux ベースのディストリビューションの場合:
 
-「」バッシュ
-sudo パックマン -S git
-「」
+```bash
+sudo pacman -S git
+```
 
 ### インストールの検証
 
@@ -104,9 +104,9 @@ sudo パックマン -S git
 
 すべてが正しい場合は、次のコマンドの配置に進みます。
 
-「」バッシュ
+```bash
 git clone https://github.com/owellandry/code_editor.git
-「」
+```
 
 ＃＃＃２．
 
@@ -114,32 +114,34 @@ git clone https://github.com/owellandry/code_editor.git
 
 私たちは置きます
 
-「」バッシュ
-cdコードエディタ
-「」
+```bash
+cd code_editor
+```
+
 通常のことはコマンドを実行することです
 
-「」バッシュ
-npmインストール
-「」
+```bash
+npm install
+```
+
 しかし、そのまま実行すると、このエラーが発生します
 
 ![img](https://media.discordapp.net/attachments/1055292395505332336/1133994208504594442/image.png)
 
 それを解決するには、次のコマンドを配置します
 
-「」バッシュ
-npm キャッシュ クリーン --force
-「」
-「」バッシュ
-rm -r ノードモジュール
-「」
-「」バッシュ
+```bash
+npm cache clean --force
+```
+```bash
+rm -r node_modules
+```
+```bash
 npm install --force
-「」
-「」バッシュ
-npmスタート
-「」
+```
+```bash
+npm start
+```
 
 ＃＃＃３．
 ＃＃＃４．

@@ -2,7 +2,7 @@
 
 Il s'agit d'un petit éditeur de code qui peut être exécuté sur le Web ou, si l'utilisateur le souhaite, il peut être exécuté localement
 
-L'éditeur de code est ** code ouvert **, il est donc libre d'utilisation
+L'éditeur de code est **code ouvert**, il est donc libre d'utilisation
 
 ## UTILISATION LOCALE
 
@@ -15,7 +15,7 @@ Ensuite, le processus d'installation sera affiché au cas où l'utilisateur souh
 dans ubuntu la commande est
 
 ```bash
-Ctrl+Maj+T
+Ctrl + Shift + T
 ```
 
 ![img](https://media.discordapp.net/attachments/1133765208322617435/1133766050790527026/image.png)
@@ -23,13 +23,13 @@ Ctrl+Maj+T
 dans windows la commande est
 
 ```bash
-Gagner + R
+Win + R 
 ```
 
 Une barre des tâches apparaîtra dans laquelle nous placerons
 
 ```bash
-commande
+cmd
 ```
 
 et nous vous donnerons entrer
@@ -82,14 +82,14 @@ git --version
 Sur les distributions basées sur Debian (comme Ubuntu) :
 
 ```bash
-mise à jour sudo apt
-sudo apt installer git
+sudo apt update
+sudo apt install git
 ```
 
 Sur les distributions basées sur Red Hat (telles que CentOS ou Fedora) :
 
 ```bash
-sudo miam installer git
+sudo yum install git
 ```
 
 Sur les distributions basées sur Arch Linux :
@@ -115,12 +115,12 @@ Une fois que nous aurons le référentiel cloné, nous entrerons dans le dossier
 nous placerons
 
 ```bash
-cdcode_editor
+cd code_editor
 ```
 La chose normale serait d'exécuter la commande
 
 ```bash
-installation npm
+npm install
 ```
 Mais si nous le faisons comme ça, nous obtiendrons cette erreur
 
@@ -129,16 +129,16 @@ Mais si nous le faisons comme ça, nous obtiendrons cette erreur
 Pour le résoudre, nous allons placer la commande suivante
 
 ```bash
-nettoyage du cache npm --force
+npm cache clean --force
 ```
 ```bash
 rm -r node_modules
 ```
 ```bash
-npm installer --force
+npm install --force
 ```
 ```bash
-début npm
+npm start
 ```
 
 ### 3.

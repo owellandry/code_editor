@@ -14,8 +14,8 @@ Als nächstes wird der Installationsprozess angezeigt, falls der Benutzer möcht
 
 In Ubuntu lautet der Befehl
 
-```Bash
-Strg+Umschalt+T
+```bash
+Ctrl + Shift + T
 ```
 
 ![img](https://media.discordapp.net/attachments/1133765208322617435/1133766050790527026/image.png)
@@ -23,7 +23,7 @@ Strg+Umschalt+T
 In Windows lautet der Befehl
 
 ```Bash
-Win+R
+Win + R
 ```
 
 Es erscheint eine Taskleiste, in der wir platzieren
@@ -81,20 +81,20 @@ git --version
 
 Auf Debian-basierten Distributionen (wie Ubuntu):
 
-```Bash
-Sudo apt-Update
-Sudo apt install git
+```bash
+sudo apt update
+sudo apt install git
 ```
 
 Auf Red Hat-basierten Distributionen (wie CentOS oder Fedora):
 
-```Bash
+```bash
 sudo yum install git
 ```
 
 Auf Arch Linux-basierten Distributionen:
 
-```Bash
+```bash
 sudo pacman -S git
 ```
 
@@ -104,8 +104,8 @@ sudo pacman -S git
 
 Wenn alles korrekt ist, geben wir den folgenden Befehl ein
 
-```Bash
-Git-Klon https://github.com/owellandry/code_editor.git
+```bash
+git clone https://github.com/owellandry/code_editor.git
 ```
 
 ### 2.
@@ -114,31 +114,32 @@ Sobald wir das geklonte Repo haben, geben wir den erforderlichen Ordner ein, um 
 
 wir werden platzieren
 
-```Bash
-cdcode_editor
+```bash
+cd code_editor
 ```
 Das Normale wäre, den Befehl auszuführen
 
-```Bash
-npm installieren
+```bash
+npm install
 ```
+
 Aber wenn wir es einfach so machen, erhalten wir diesen Fehler
 
 ![img](https://media.discordapp.net/attachments/1055292395505332336/1133994208504594442/image.png)
 
 Um das Problem zu lösen, geben wir den folgenden Befehl ein
 
-```Bash
-npm-Cache bereinigen --force
+```bash
+npm cache clean --force
 ```
-```Bash
+```bash
 rm -r node_modules
 ```
-```Bash
+```bash
 npm install --force
 ```
-```Bash
-npm-Start
+```bash
+npm start
 ```
 
 ### 3.
