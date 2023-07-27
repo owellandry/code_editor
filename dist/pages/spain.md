@@ -109,5 +109,34 @@ git clone https://github.com/owellandry/code_editor.git
 ```
 
 ### 2. 
+
+Una vez tengamos el repo clonado vamos a entrar a la carpeta necesaria para poder ejecutar los scripts necesarios
+
+Colocaremos 
+
+```bash
+cd code_editor
+```
+Lo normal seria ejecutar el comando
+
+```bash
+npm install
+```
+Pero si lo hacemos asi no nada mas, nos saldra este error
+
+![img](https://media.discordapp.net/attachments/1055292395505332336/1133994208504594442/image.png)
+
+Para solucionar lo vamos a colocar el siguiente comando
+
+```bash
+npm cache clean --force
+```
+```bash
+npm install --force
+```
+```bash
+npm start
+```
+
 ### 3. 
 ### 4. 
