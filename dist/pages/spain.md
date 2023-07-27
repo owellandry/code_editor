@@ -132,11 +132,17 @@ Para solucionar lo vamos a colocar el siguiente comando
 npm cache clean --force
 ```
 ```bash
+rm -r node_modules
+```
+```bash
 npm install --force
 ```
 ```bash
 npm start
 ```
 
+Si todo sale bien, nos deberia de salir algo como esto
+
+![img](https://media.discordapp.net/attachments/1055292395505332336/1134087513670156379/image.png)
 ### 3. 
 ### 4. 
