@@ -1,4 +1,4 @@
-# Syntaxe
+# Syntaxia
 
 Il s'agit d'un petit éditeur de code qui peut être exécuté sur le Web ou, si l'utilisateur le souhaite, il peut être exécuté localement
 

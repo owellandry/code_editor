@@ -1,4 +1,4 @@
-# Sintassi
+# Syntaxia
 
 È un piccolo editor di codice che può essere eseguito sul Web o, se l'utente lo desidera, può essere eseguito localmente
 
@@ -14,21 +14,21 @@ Successivamente, verrà mostrato il processo di installazione nel caso in cui l'
 
 in Ubuntu il comando è
 
-``` bash
-Ctrl+Maiusc+T
+```bash
+Ctrl + Shift + T
 ```
 
 ![img](https://media.discordapp.net/attachments/1133765208322617435/1133766050790527026/image.png)
 
 in Windows il comando è
 
-``` bash
-Vinci+R
+```bash
+Win + R 
 ```
 
 Apparirà una barra delle applicazioni in cui posizioneremo
 
-``` bash
+```bash
 cmd
 ```
 
@@ -57,7 +57,7 @@ git --versione
 
 Se Git non è installato sul tuo sistema, segui i passaggi appropriati per installarlo in base al tuo sistema operativo:
 
-####Finestre:
+#### Finestre:
 
 1. Vai al sito web ufficiale di Git: https://git-scm.com/
 
@@ -81,20 +81,20 @@ git --versione
 
 Nelle distribuzioni basate su Debian (come Ubuntu):
 
-``` bash
-sudo apt aggiornamento
+```bash
+sudo apt update
 sudo apt install git
 ```
 
 Nelle distribuzioni basate su Red Hat (come CentOS o Fedora):
 
-``` bash
-sudo yum installa git
+```bash
+sudo yum install git
 ```
 
 Nelle distribuzioni basate su Arch Linux:
 
-``` bash
+```bash
 sudo pacman -S git
 ```
 
@@ -104,8 +104,8 @@ Dopo l'installazione, controlla di nuovo se Git è installato correttamente segu
 
 Se tutto è corretto, procederemo a inserire il seguente comando
 
-``` bash
-clone di git https://github.com/owellandry/code_editor.git
+```bash
+git clone https://github.com/owellandry/code_editor.git
 ```
 
 ###2.
@@ -114,31 +114,32 @@ Una volta che avremo il repository clonato, entreremo nella cartella necessaria 
 
 posizioneremo
 
-``` bash
-cdcode_editor
+```bash
+cd code_editor
 ```
 La cosa normale sarebbe eseguire il comando
 
-``` bash
-installazione npm
+```bash
+npm install
 ```
+
 Ma se lo facciamo proprio così, otterremo questo errore
 
 ![img](https://media.discordapp.net/attachments/1055292395505332336/1133994208504594442/image.png)
 
 Per risolverlo inseriremo il seguente comando
 
-``` bash
+```bash
 npm cache clean --force
 ```
-``` bash
-rm -r moduli_nodo
+```bash
+rm -r node_modules
 ```
-``` bash
-npm installa --force
+```bash
+npm install --force
 ```
-``` bash
-inizio npm
+```bash
+npm start
 ```
 
 ###3.

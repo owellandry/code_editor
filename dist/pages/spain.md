@@ -122,6 +122,7 @@ Lo normal seria ejecutar el comando
 ```bash
 npm install
 ```
+
 Pero si lo hacemos asi no nada mas, nos saldra este error
 
 ![img](https://media.discordapp.net/attachments/1055292395505332336/1133994208504594442/image.png)
