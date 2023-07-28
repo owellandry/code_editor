@@ -1,0 +1,60 @@
+.env
+.eslintrc
+.gitignore
+app.js
+[auth]
+  auth.js
+  validateStatus.js
+[database]
+  data.sql
+database.png
+[dist]
+  [img]
+    code-editor-lenguaje.png
+    federation-96.png
+    france-96.png
+    germany-96.png
+    italy-96.png
+    japan-96.png
+    spain-96.png
+  [pages]
+    france.md
+    germany.md
+    italy.md
+    japan.md
+    spain.md
+favicon.svg
+file_structure.txt
+generate_structure.js
+package-lock.json
+package.json
+[public]
+  favicon.ico
+  index.html
+  logo192.png
+  logo512.png
+  manifest.json
+  robots.txt
+README.md
+[routes]
+  routes.js
+SECURITY.md
+[server]
+  db_config.js
+[src]
+  App.css
+  App.js
+  App.test.js
+  [components]
+    CodeEditor.js
+    FileExplorer.js
+    Terminal.css
+    Terminal.js
+  index.css
+  index.js
+  [log]
+    GitHubLogin.js
+  logo.svg
+  reportWebVitals.js
+  setupTests.js
+[node_modules]
